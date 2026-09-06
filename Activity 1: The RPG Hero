@@ -15,3 +15,6 @@ arthur.take_damage(10)
 print(arthur.name, "HP:", arthur.hp)
 print(morgana.name, "HP:", morgana.hp)
 
+I'm sorry sir, I wasn't able to submit activity before the deadline on Friday.
+I forgot about the submission deadline. I understand if there will be a late penalty.
+I'm really sorry sir TvT
