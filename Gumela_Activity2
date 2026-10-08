@@ -1,1 +1,32 @@
+class Rectangle:
+    def __init__(self, width, height):
+        self.__width = width
+        self.__height = height
+
+    @property
+    def width(self):
+        return self.__width
+
+    @width.setter
+    def width(self, width):
+        self.__width = width
+
+    @property
+    def height(self):
+        return self.__height
+
+    @height.setter
+    def height(self, height):
+        self.__height = height
+
+rectangle = Rectangle(10, 5)
+
+print(rectangle.width)
+print(rectangle.height)
+
+rectangle.width = 20
+rectangle.height = 15
+
+print(rectangle.width)
+print(rectangle.height)
 
