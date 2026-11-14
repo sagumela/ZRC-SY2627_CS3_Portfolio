@@ -1,0 +1,1 @@
+Using @property makes the code easier to read because we can access and change private attributes like normal variables. Instead of writing get_width() or set_width(), we can simply use rectangle.width. It also keeps the data protected while making the code cleaner.
